@@ -1,0 +1,18 @@
+class Solution
+{
+    public long sum_of_square_oddNumbers(long n)
+    {
+        // Code here
+           long sq=1;
+       long sum=0;
+       for(int i=1;i<=n;i++)
+       {
+              sum=sum+sq*sq;
+              sq=sq+2;
+             
+       }
+      // sum=sum+sq;
+       return sum;
+
+    }
+}
